@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter the amount : ";
+    cin>>n;
+    int arr[10]={2000,500,200,100,50,20,10,5,2,1};
+    for(int i=0;i<10;i++)
+    {
+        int r=n/arr[i];
+        cout<<arr[i]<<" - "<<r<<endl;
+        n=n%arr[i];
+    }
+    return 0;
+}
