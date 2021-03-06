@@ -15,7 +15,9 @@ int stepWays(int array[], int size, int N){
 int main() {
    int array[] = {1, 2, 3};
    int size = sizeof(array) / sizeof(array[0]);
-   int N = 10;
+   int N;
+   cout<<"enter the number of steps : ";
+   cin>>N;
    cout<<"Total number of ways in which the frogs can jump up "<<N<<" stairs is "      <<stepWays(array, size, N);
    return 0;
 }
