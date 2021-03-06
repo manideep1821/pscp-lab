@@ -12,7 +12,6 @@ int main()
 	for(i=0;i<n;i++)
 		for(j=0;j<n;j++)
 		{
-			cout<<"Enter element of row "<<i+1<<" and column "<<j+1<<":";
 			cin>>a[i][j];
 		}
 	int x,y,temp11,temp2;
