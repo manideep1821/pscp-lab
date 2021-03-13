@@ -9,7 +9,7 @@ class creditcard
         int money;
         creditcard()
         {
-            balance=55000;
+            balance=50000;
         }
         void usecard(int a)
         {
